@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#00BFFF",
+    "editorBracketHighlight.foreground2": "#DA70D6",
+    "editorBracketHighlight.foreground3": "#00FF00",
+    "editorBracketHighlight.foreground4": "#FFD700",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+  "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.renderSideBySide": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "workbench.preferredDarkColorTheme": "Default Dark+ Experimental",
+  "zenMode.hideLineNumbers": false
+}

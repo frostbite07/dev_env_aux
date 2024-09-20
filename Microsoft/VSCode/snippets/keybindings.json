@@ -1,0 +1,54 @@
+[
+  {
+    "key": "alt+q",
+    "command": "editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "alt+q",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+space s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "/** Access to the $0./"
+    }
+  },
+  {
+    "key": "shift+space c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "Creates a new instance."
+    }
+  },
+  {
+    "key": "shift+space f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "/*---- fields ----*/\n"
+    }
+  },
+  {
+    "key": "shift+space i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "$0/** @inheritdoc */"
+    }
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "git.revertSelectedRanges",
+    "when": "!operationInProgress"
+  },
+  {
+    "key": "ctrl+k ctrl+r",
+    "command": "-git.revertSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  }
+]
