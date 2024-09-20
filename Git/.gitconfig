@@ -1,0 +1,6 @@
+[core]
+	autocrlf = false
+	fscache = true
+	symlinks = false
+[init]
+	defaultBranch = main
