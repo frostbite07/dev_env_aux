@@ -1,0 +1,4 @@
+{
+  "cargo": ["ripgrep", "bat"],
+  "psGallery": ["posh-git"]
+}
